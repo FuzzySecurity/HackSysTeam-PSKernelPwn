@@ -10,7 +10,7 @@ Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https:
 | *Uninitialized Stack Variable* | Done | http://www.fuzzysecurity.com/tutorials/expDev/17.html |
 | *Integer Overflow* | Done |  http://www.fuzzysecurity.com/tutorials/expDev/18.html|
 | *Type Confusion* | Exploit Only | N/A |
+| *Use After Free* | Done | http://www.fuzzysecurity.com/tutorials/expDev/19.html |
 | *Pool Overflow* | To Do |  |
-| *Use After Free* | To Do |  |
 | *Stack Overflow GS* | ToDo |  |
 | *Uninitialized Heap Variable* | To Do |  |
