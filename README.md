@@ -11,6 +11,6 @@ Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https:
 | *Integer Overflow* | Done |  http://www.fuzzysecurity.com/tutorials/expDev/18.html|
 | *Type Confusion* | Exploit Only | N/A |
 | *Use After Free* | Done | http://www.fuzzysecurity.com/tutorials/expDev/19.html |
-| *Pool Overflow* | To Do |  |
+| *Pool Overflow* | Done | http://www.fuzzysecurity.com/tutorials/expDev/20.html |
 | *Stack Overflow GS* | ToDo |  |
 | *Uninitialized Heap Variable* | To Do |  |
