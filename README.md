@@ -2,6 +2,8 @@
 
 Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https://twitter.com/hacksysteam) Extreme Vulnerable Driver ([HEVD](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)).
 
+### Win7 x32
+
 | Vulnerability | Status        | Link  |
 | ------------- |:-------------:| -----:|
 | *Stack Overflow* | Done | http://www.fuzzysecurity.com/tutorials/expDev/14.html |
@@ -14,3 +16,9 @@ Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https:
 | *Pool Overflow* | Done | http://www.fuzzysecurity.com/tutorials/expDev/20.html |
 | *Stack Overflow GS* | ToDo |  |
 | *Uninitialized Heap Variable* | To Do |  |
+
+### Win10 x64 (v1511)
+
+| Vulnerability | Status        | Link  |
+| ------------- |:-------------:| -----:|
+| *Arbitrary Overwrite* | Done | http://www.fuzzysecurity.com/tutorials/expDev/21.html |
