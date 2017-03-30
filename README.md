@@ -22,3 +22,9 @@ Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https:
 | Vulnerability | Status        | Link  |
 | ------------- |:-------------:| -----:|
 | *Arbitrary Overwrite* | Done | http://www.fuzzysecurity.com/tutorials/expDev/21.html |
+
+### Win10 x64 (v1607)
+
+| Vulnerability | Status        | Link  |
+| ------------- |:-------------:| -----:|
+| *Double Fetch* | Done | To Do |
