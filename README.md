@@ -28,3 +28,9 @@ Accompanying blog posts on using PowerShell to exploit the [@HackSysTeam](https:
 | Vulnerability | Status        | Link  |
 | ------------- |:-------------:| -----:|
 | *Double Fetch* | Done | To Do |
+
+### Win10 x64 (v1703)
+
+| Vulnerability | Status        | Link  |
+| ------------- |:-------------:| -----:|
+| *Arbitrary Overwrite* | Done | To Do |
